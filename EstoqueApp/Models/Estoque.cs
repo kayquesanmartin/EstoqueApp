@@ -42,6 +42,9 @@ public class Estoque
     }
     
     // Adicionar opção para filtrar no estoque
+    // Exibir descrição do produto?
+    // Possuir estoque mínimo?
+    // Possuir data de entrada e de saída dos itens
     public void ListarProdutos()
     {
         if (EstoqueVazio)
