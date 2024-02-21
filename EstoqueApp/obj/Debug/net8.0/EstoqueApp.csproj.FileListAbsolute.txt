@@ -1,0 +1,14 @@
+D:\dev\c#\EstoqueApp\EstoqueApp\bin\Debug\net8.0\EstoqueApp.exe
+D:\dev\c#\EstoqueApp\EstoqueApp\bin\Debug\net8.0\EstoqueApp.deps.json
+D:\dev\c#\EstoqueApp\EstoqueApp\bin\Debug\net8.0\EstoqueApp.runtimeconfig.json
+D:\dev\c#\EstoqueApp\EstoqueApp\bin\Debug\net8.0\EstoqueApp.dll
+D:\dev\c#\EstoqueApp\EstoqueApp\bin\Debug\net8.0\EstoqueApp.pdb
+D:\dev\c#\EstoqueApp\EstoqueApp\obj\Debug\net8.0\EstoqueApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\c#\EstoqueApp\EstoqueApp\obj\Debug\net8.0\EstoqueApp.AssemblyInfoInputs.cache
+D:\dev\c#\EstoqueApp\EstoqueApp\obj\Debug\net8.0\EstoqueApp.AssemblyInfo.cs
+D:\dev\c#\EstoqueApp\EstoqueApp\obj\Debug\net8.0\EstoqueApp.csproj.CoreCompileInputs.cache
+D:\dev\c#\EstoqueApp\EstoqueApp\obj\Debug\net8.0\EstoqueApp.dll
+D:\dev\c#\EstoqueApp\EstoqueApp\obj\Debug\net8.0\refint\EstoqueApp.dll
+D:\dev\c#\EstoqueApp\EstoqueApp\obj\Debug\net8.0\EstoqueApp.pdb
+D:\dev\c#\EstoqueApp\EstoqueApp\obj\Debug\net8.0\EstoqueApp.genruntimeconfig.cache
+D:\dev\c#\EstoqueApp\EstoqueApp\obj\Debug\net8.0\ref\EstoqueApp.dll
