@@ -1,28 +1,40 @@
-﻿using EstoqueApp.Models;
+﻿using EstoqueApp.Menus;
+using EstoqueApp.Models;
 
 Estoque estoque = new Estoque();
+
+const int VISUALIZAR_ESTOQUE = 1;
+const int ADICIONAR_PRODUTO = 2;
+const int DETALHES_PRODUTOS = 3;
+const int SAIR = 4;
 
 void Menu()
 {
     Console.Clear();
     TituloMenu("Controle de Estoque");
 
-    Console.WriteLine("[ 1 ] Visualizar Estoque\n" +
-                      "[ 2 ] Adicionar Produto\n" +
-                      "[ 3 ] Sair\n");
+    Console.WriteLine($"[ {VISUALIZAR_ESTOQUE} ] Visualizar Estoque\n" +
+                      $"[ {ADICIONAR_PRODUTO} ] Adicionar Produto\n" +
+                      $"[ {DETALHES_PRODUTOS} ] Detalhes dos Produtos\n" +
+                      $"[ {SAIR} ] Sair\n");
 
     Console.Write("Pressione a opção desejada: ");
     var option = int.Parse(Console.ReadLine()!);
 
     switch (option)
     {
-        case 1:
+        case VISUALIZAR_ESTOQUE:
             ConsultaEstoque();
             break;
-        case 2:
+        case ADICIONAR_PRODUTO:
             AdicionarProduto();
             break;
-        case 3:
+        case DETALHES_PRODUTOS:
+            MenuDetalhesProdutos menu = new MenuDetalhesProdutos();
+            //menu.Executar();
+            Menu();
+            break;
+        case SAIR:
             Console.WriteLine("Saindo...");
             break;
         default:
@@ -31,6 +43,7 @@ void Menu()
     }
 }
 
+// Transformar em classe
 void ConsultaEstoque()
 {
     Console.Clear(); 
@@ -48,6 +61,7 @@ void ConsultaEstoque()
     Menu();
 }
 
+// Transformar em classe
 void AdicionarProduto()
 {
     while (true)
@@ -74,7 +88,6 @@ void AdicionarProduto()
             AdicionarProduto();
             break;
         }
-
         Menu();
         break;
     }

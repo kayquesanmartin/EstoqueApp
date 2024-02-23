@@ -17,9 +17,10 @@ public class Produtos
 
     public int Id { get; }
 
+    public string Marca { get; }
     public string Nome { get; }
 
-    public string Marca { get; }
+    //public string Descricao { get; set; }
 
     public double Preco
     {

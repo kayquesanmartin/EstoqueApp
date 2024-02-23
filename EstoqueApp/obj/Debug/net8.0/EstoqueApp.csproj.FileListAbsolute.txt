@@ -12,3 +12,4 @@ D:\dev\c#\EstoqueApp\EstoqueApp\obj\Debug\net8.0\refint\EstoqueApp.dll
 D:\dev\c#\EstoqueApp\EstoqueApp\obj\Debug\net8.0\EstoqueApp.pdb
 D:\dev\c#\EstoqueApp\EstoqueApp\obj\Debug\net8.0\EstoqueApp.genruntimeconfig.cache
 D:\dev\c#\EstoqueApp\EstoqueApp\obj\Debug\net8.0\ref\EstoqueApp.dll
+D:\dev\c#\EstoqueApp\EstoqueApp\obj\Debug\net8.0\EstoqueApp.sourcelink.json

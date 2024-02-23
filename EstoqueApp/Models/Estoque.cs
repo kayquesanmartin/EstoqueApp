@@ -1,6 +1,6 @@
 namespace EstoqueApp.Models;
 
-public class Estoque
+internal class Estoque
 {
     private List<Produtos> Estoques { get; }
     
@@ -59,4 +59,13 @@ public class Estoque
             }
         }
     }
+    
+    
+    
+    /*
+     * public static Estoque(double valor){
+     *     double valor1 = double.Parse(valor);
+     *     retun valor1;
+     * }
+     */
 }
