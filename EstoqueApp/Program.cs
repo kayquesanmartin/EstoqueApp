@@ -24,7 +24,7 @@ void ExibirMenu()
     {
         Menu menuASerExibido = opcoes[opcaoEscolhidaNumerica];
         menuASerExibido.Executar(estoque);
-        if(opcaoEscolhidaNumerica > 0) ExibirMenu();
+        if(opcaoEscolhidaNumerica != 3) ExibirMenu();
     }
     else
     {
