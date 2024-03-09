@@ -25,7 +25,6 @@ public class MenuAddProduto : Menu
 
         Console.Write("Deseja adicionar outro produto? (s/n): ");
         string continuar = Console.ReadLine()!;
-        if (continuar.ToLower() == "s") Console.WriteLine("Alguma coisa até arrumar"); //Chamar a classe adicionar produto novamente?;
-        else Console.WriteLine("Alguma cois até arruamr."); // Chamar a função ou classe ExibirMenu();
+        if (continuar.ToLower() == "s") Executar(estoque);
     }
 }
