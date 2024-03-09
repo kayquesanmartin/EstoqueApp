@@ -1,3 +1,5 @@
+using EstoqueApp.Models;
+
 namespace EstoqueApp.Menus;
 
 public class Menu
@@ -9,5 +11,10 @@ public class Menu
         Console.WriteLine($"{asterisco}\n" +
                           $"{titulo}\n" +
                           $"{asterisco}\n");
+    }
+
+    public virtual void Executar(Estoque estoque)
+    {
+        Console.Clear();
     }
 }

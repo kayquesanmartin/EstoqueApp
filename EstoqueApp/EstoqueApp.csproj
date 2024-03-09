@@ -9,6 +9,7 @@
 
     <ItemGroup>
       <Compile Remove="Menus.cs" />
+      <Compile Remove="Menus\MenuDetalhesProduto.cs" />
     </ItemGroup>
 
 </Project>

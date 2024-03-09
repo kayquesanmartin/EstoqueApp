@@ -1,6 +1,6 @@
 namespace EstoqueApp.Models;
 
-internal class Estoque
+public class Estoque
 {
     private List<Produtos> Estoques { get; }
     
@@ -25,13 +25,11 @@ internal class Estoque
     
     public bool EstoqueVazio => Estoques.Count == 0;
 
-    public void AdicionarProduto(int id, string marca, string nome, double preco, int unidades)
+    public void AddProduto(int id, string marca, string nome, double preco, int unidades)
     {
         if (Estoques.Exists(produto => produto.Nome.ToLower() == nome.ToLower()))
         {
-            Console.WriteLine($"Já possui o produto no estoque.\n" +
-                              $"ID: {id} | {marca} {nome}");
-            // Arrumar o id que está sendo retornado e retornar o ID que ja esta cadastrado
+            Console.WriteLine($"Já possui o produto no estoque.\n");
         }
         else
         {
@@ -59,13 +57,4 @@ internal class Estoque
             }
         }
     }
-    
-    
-    
-    /*
-     * public static Estoque(double valor){
-     *     double valor1 = double.Parse(valor);
-     *     retun valor1;
-     * }
-     */
 }
